@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://heart_scene"]
+
+[ext_resource type="Script" path="res://heart_display.gd" id="1_heart"]
+
+[node name="Heart" type="Node2D"]
+script = ExtResource("1_heart")
+
+[node name="HeartSprite" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)  # Kırmızı renk
+scale = Vector2(0.5, 0.5)  # Küçük boyut 
